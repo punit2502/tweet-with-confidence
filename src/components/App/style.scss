@@ -1,0 +1,40 @@
+.wrapper {
+    min-height: calc(100vh - 70px);
+}
+
+.footer {
+    height: 50px;
+}
+
+textarea {
+    margin: 5rem 0.5rem 0 0;
+    display: inline-block;
+    letter-spacing: 0.1em;
+}
+
+.btn {
+display: inline-block;
+}
+
+@media screen and (max-device-width: 480px) {
+    textarea{
+        margin-top: 2rem;
+    }
+
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar {
+        display: inline;
+    }
+
+    #sharebutton {
+        height: auto;
+    }
+
+    #passlengthinput {
+        height: 100%;
+    }
+  } 
